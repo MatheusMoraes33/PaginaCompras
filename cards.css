@@ -1,0 +1,62 @@
+*{
+    margin: 10px;
+    box-sizing: border-box;
+}
+body{
+    background: url(./imagens/FundoSite.jpg);
+}
+
+.tituloPagina{
+    color: rgb(7, 11, 2);
+    text-shadow: 3px 3px 3px #fdf7f7;
+}
+
+.titulo{
+    font-family: arial;
+    font-size: 10px;
+    color: #2f2a2a;
+    text-align: center;
+    background-color: chartreuse;
+    border-radius: 30px;
+    border: solid black 1px;
+    padding: 5px;
+    box-shadow: 5px 10px 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.ProdutoHeadset{
+    background-color: chocolate;
+    text-align: center;
+    border: solid 2px black;
+    width:300px ;
+    height: 430px;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 4px 2px;
+}
+
+.subtitulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+h1{
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+img{
+    width: 90px;
+    height: 80px;
+}
+input[value="Adicionar ao carrinho"]{
+    background-color: aqua;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+input[value="comprar agora"]{
+    background-color: rgb(136, 255, 0);
+    border: solid black 1px;
+    border-radius: 30px;
+}
